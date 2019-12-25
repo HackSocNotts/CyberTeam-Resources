@@ -1,5 +1,6 @@
 ### **Awesome Penetration Testing** [![Links Check](https://4.bp.blogspot.com/-_NIGc5XKpSw/WHt9d7wCXaI/AAAAAAAAB0o/OYIv8EWjIoYh44jfxIRSrRYbgrn3MZKEQCLcB/s1600/penetration%2Btesting.png)](http://kalitut.com)
 
+
 A collection of awesome penetration testing resources
 
 - [Online Resources](#online-resources)
@@ -42,8 +43,8 @@ A collection of awesome penetration testing resources
 - [Information Security Magazines](#information-security-magazines)
 
 
-### Online Resources
-#### Penetration Testing Resources
+### Online Resources {#online-resources}
+#### Penetration Testing Resources {#penetration-testing-resources}
 * [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) - Free Offensive Security Metasploit course
 * [PTES](http://www.pentest-standard.org/) - Penetration Testing Execution Standard
 * [OWASP](https://www.owasp.org/index.php/Main_Page) - Open Web Application Security Project
@@ -51,22 +52,22 @@ A collection of awesome penetration testing resources
 * [Vulnerability Assessment Framework](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html) - Penetration Testing Framework.
 * [The Pentesters Framework](https://github.com/trustedsec/ptf) - PTF attempts to install all of your penetration testing tools (latest and greatest), compile them, build them, and make it so that you can install/update your distribution on any machine. Everything is organized in a fashion that is cohesive to the Penetration Testing Execution Standard (PTES) and eliminates a lot of things that are hardly used.
 
-#### Exploit development
+#### Exploit development {#exploit-development}
 * [Shellcode Tutorial](http://www.vividmachines.com/shellcode/shellcode.html) - Tutorial on how to write shellcode
 * [Shellcode Examples](http://shell-storm.org/shellcode/) - Shellcodes database
 * [Exploit Writing Tutorials](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/) - Tutorials on how to develop exploits
 * [shellsploit](https://github.com/b3mb4m/shellsploit-framework) - New Generation Exploit Development Kit
 * [Voltron](https://github.com/snare/voltron) - A hacky debugger UI for hackers
 
-#### Social Engineering Resources
+#### Social Engineering Resources {#social-engineering-resources}
 * [Social Engineering Framework](http://www.social-engineer.org/framework/general-discussion/) - An information resource for social engineers
 
-#### Lock Picking Resources
+#### Lock Picking Resources {#lock-picking-resources}
 * [Schuyler Towne channel](https://www.youtube.com/user/SchuylerTowne/) - Lockpicking videos and security talks
 * [/r/lockpicking](https://www.reddit.com/r/lockpicking) - Resources for learning lockpicking, equipment recommendations.
 
-### Tools
-#### Penetration Testing Distributions
+### Tools {#tools}
+#### Penetration Testing Distributions {#penetration-testing-distributions}
 * [Kali](https://www.kali.org/) - A Linux distribution designed for digital forensics and penetration testing
 * [ArchStrike](https://archstrike.org/) - An Arch Linux repository for security professionals and enthusiasts
 * [BlackArch](https://www.blackarch.org/) - Arch Linux-based distribution for penetration testers and security researchers
@@ -76,7 +77,7 @@ A collection of awesome penetration testing resources
 * [Parrot](https://www.parrotsec.org/) - A distribution similar to Kali, with multiple architecture
 * [Fedora Security Lab](https://labs.fedoraproject.org/en/security/) - Provides a safe test environment to work on security auditing, forensics, system rescue and teaching security testing methodologies.
 
-#### Basic Penetration Testing Tools
+#### Basic Penetration Testing Tools {#basic-penetration-testing-tools}
 * [Metasploit Framework](https://www.metasploit.com/) - World's most used penetration testing software
 * [Burp Suite](https://portswigger.net/burp/) - An integrated platform for performing security testing of web applications
 * [ExploitPack](http://exploitpack.com/) - Graphical tool for penetration testing with a bunch of exploits
@@ -87,7 +88,7 @@ A collection of awesome penetration testing resources
 * [routersploit](https://github.com/reverse-shell/routersploit) - Automated penetration testing software for router
 * [redsnarf] (https://github.com/nccgroup/redsnarf) - Post-exploitation tool for grabbing credentials
 
-#### Docker for Penetration Testing
+#### Docker for Penetration Testing {#docker-for-penetration-testing}
 * `docker pull kalilinux/kali-linux-docker` [official Kali Linux](https://hub.docker.com/r/kalilinux/kali-linux-docker/)
 * `docker pull owasp/zap2docker-stable` - [official OWASP ZAP](https://github.com/zaproxy/zaproxy)
 * `docker pull wpscanteam/wpscan` - [official WPScan](https://hub.docker.com/r/wpscanteam/wpscan/)
@@ -104,7 +105,7 @@ A collection of awesome penetration testing resources
 * `docker pull citizenstig/nowasp` - [OWASP Mutillidae II Web Pen-Test Practice Application](https://hub.docker.com/r/citizenstig/nowasp/)
 * `docker pull bkimminich/juice-shop` - [OWASP Juice Shop](https://github.com/bkimminich/juice-shop#docker-container--)
 
-#### Vulnerability Scanners
+#### Vulnerability Scanners {#vulnerability-scanners}
 * [Nexpose](https://www.rapid7.com/products/nexpose/) - Vulnerability Management & Risk Management Software
 * [Nessus](http://www.tenable.com/products/nessus-vulnerability-scanner) - Vulnerability, configuration, and compliance assessment
 * [Nikto](https://cirt.net/nikto2) - Web application vulnerability scanner
@@ -117,7 +118,7 @@ A collection of awesome penetration testing resources
 * [DVCS Ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG/BZR
 * [arachni](https://github.com/Arachni/arachni) - Web Application Security Scanner Framework
 
-#### Network Tools
+#### Network Tools {#network-tools}
 * [nmap](https://nmap.org/) - Free Security Scanner For Network Exploration & Security Audits
 * [pig](https://github.com/rafael-santiago/pig) - A Linux packet crafting tool
 * [tcpdump/libpcap](http://www.tcpdump.org/) - A common packet analyzer that runs under the command line
@@ -149,20 +150,20 @@ A collection of awesome penetration testing resources
 * [Debookee (MAC OS X)](http://www.iwaxx.com/debookee/) - Intercept traffic from any device on your network
 * [Dripcap](https://github.com/dripcap/dripcap) - Caffeinated packet analyzer
 
-#### Wireless Network Tools
+#### Wireless Network Tools {#wireless-network-tools}
 * [Aircrack-ng](http://www.aircrack-ng.org/) - a set of tools for auditing wireless network
 * [Kismet](https://kismetwireless.net/) - Wireless network detector, sniffer, and IDS
 * [Reaver](https://code.google.com/archive/p/reaver-wps) - Brute force attack against Wifi Protected Setup
 * [Wifite](https://github.com/derv82/wifite) - Automated wireless attack tool
 * [wifiphisher](https://github.com/sophron/wifiphisher) - Automated phishing attacks against Wi-Fi networks
 
-#### SSL Analysis Tools
+#### SSL Analysis Tools {#ssl-analysis-tools}
 * [SSLyze](https://github.com/nabla-c0d3/sslyze) - SSL configuration scanner
 * [sslstrip](https://www.thoughtcrime.org/software/sslstrip/) - a demonstration of the HTTPS stripping attacks
 * [sslstrip2](https://github.com/LeonardoNve/sslstrip2) - SSLStrip version to defeat HSTS
 * [tls_prober](https://github.com/WestpointLtd/tls_prober) - fingerprint a server's SSL/TLS implementation
 
-#### Web exploitation
+#### Web exploitation {#web-exploitation}
 * [WPScan](https://wpscan.org/) - Black box WordPress vulnerability scanner
 * [SQLmap](http://sqlmap.org/) - Automatic SQL injection and database takeover tool
 * [weevely3](https://github.com/epinna/weevely3) - Weaponized web shell
@@ -176,19 +177,19 @@ A collection of awesome penetration testing resources
 * [Kadimus](https://github.com/P0cL4bs/Kadimus) - LFI scan and exploit tool
 * [liffy](https://github.com/hvqzao/liffy) - LFI exploitation tool
 
-#### Hex Editors
+#### Hex Editors {#hex-editors}
 * [HexEdit.js](https://hexed.it) - Browser-based hex editing
 * [Hexinator](https://hexinator.com/) (commercial) - World's finest Hex Editor
 * [HxD - Freeware Hex Editor and Disk Editor](https://mh-nexus.de/en/hxd/)
 
 
-#### Crackers
+#### Crackers {#crackers}
 * [John the Ripper](http://www.openwall.com/john/) - Fast password cracker
 * [Online MD5 cracker](http://www.md5crack.com/) - Online MD5 hash Cracker
 * [Hashcat](http://hashcat.net/hashcat/) - The more fast hash cracker
 * [THC Hydra](http://sectools.org/tool/hydra/) - Another Great Password Cracker
 
-#### Windows Utils
+#### Windows Utils {#windows-utils}
 * [Sysinternals Suite](https://technet.microsoft.com/en-us/sysinternals/bb842062) - The Sysinternals Troubleshooting Utilities
 * [Windows Credentials Editor](http://www.ampliasecurity.com/research/windows-credentials-editor/) - security tool to list logon sessions and add, change, list and delete associated credentials
 * [mimikatz](http://blog.gentilkiwi.com/mimikatz) - Credentials extraction tool for Windows OS
@@ -199,18 +200,18 @@ A collection of awesome penetration testing resources
 * [Empire](https://github.com/PowerShellEmpire/Empire) - Empire is a pure PowerShell post-exploitation agent
 * [Fibratus](https://github.com/rabbitstack/fibratus) - Tool for exploration and tracing of the Windows kernel
 
-#### Linux Utils
+#### Linux Utils {#linux-utils}
 * [Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) - Linux Exploit Suggester; based on operating system release number.
 
-#### DDoS Tools
+#### DDoS Tools {#ddos-tools}
 * [LOIC](https://github.com/NewEraCracker/LOIC/) - An open source network stress tool for Windows
 * [JS LOIC](http://metacortexsecurity.com/tools/anon/LOIC/LOICv1.html) - JavaScript in-browser version of LOIC
 * [T50](https://sourceforge.net/projects/t50/) - The more fast network stress tool
 
-#### Social Engineering Tools
+#### Social Engineering Tools {#social-engineering-tools}
 * [SET](https://github.com/trustedsec/social-engineer-toolkit) - The Social-Engineer Toolkit from TrustedSec
 
-#### OSInt Tools
+#### OSInt Tools {#osint-tools}
 * [Maltego](http://www.paterva.com/web7/) - Proprietary software for open source intelligence and forensics, from Paterva.
 * [theHarvester](https://github.com/laramies/theHarvester) - E-mail, subdomain and people names harvester
 * [creepy](https://github.com/ilektrojohn/creepy) - A geolocation OSINT tool
@@ -223,12 +224,12 @@ A collection of awesome penetration testing resources
 * [vcsmap](https://github.com/melvinsh/vcsmap) - A plugin-based tool to scan public version control systems for sensitive information
 * [Spiderfoot](http://www.spiderfoot.net/) - multi-source OSINT automation tool with a Web UI and report visualizations
 
-#### Anonymity Tools
+#### Anonymity Tools {#anonymity-tools}
 * [Tor](https://www.torproject.org/) - The free software for enabling onion routing online anonymity
 * [I2P](https://geti2p.net/en/) - The Invisible Internet Project
 * [Nipe](https://github.com/GouveaHeitor/nipe) - Script to redirect all traffic from the machine to the Tor network.
 
-#### Reverse Engineering Tools
+#### Reverse Engineering Tools {#reverse-engineering-tools}
 * [IDA Pro](https://www.hex-rays.com/products/ida/) - A Windows, Linux or Mac OS X hosted multi-processor disassembler and debugger
 * [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware.shtml) - The freeware version of IDA v5.0
 * [WDK/WinDbg](https://msdn.microsoft.com/en-us/windows/hardware/hh852365.aspx) - Windows Driver Kit and WinDbg
@@ -242,11 +243,11 @@ A collection of awesome penetration testing resources
 * [peda](https://github.com/longld/peda) - Python Exploit Development Assistance for GDB
 * [dnSpy](https://github.com/0xd4d/dnSpy) - dnSpy is a tool to reverse engineer .NET assemblies
 
-#### CTF Tools
+#### CTF Tools {#ctf-tools}
 * [Pwntools](https://github.com/Gallopsled/pwntools) - CTF framework for use in CTFs
 
-### Books
-#### Penetration Testing Books
+### Books {#books}
+#### Penetration Testing Books {#penetration-testing-books}
 * [The Art of Exploitation by Jon Erickson, 2008](http://amzn.to/2iqhK9S)
 * [Metasploit: The Penetration Tester's Guide by David Kennedy et al., 2011](http://amzn.to/2jl5pUd)
 * [Penetration Testing: A Hands-On Introduction to Hacking by Georgia Weidman, 2014](http://amzn.to/2jMfK8i)
@@ -263,7 +264,7 @@ A collection of awesome penetration testing resources
 * [Advanced Persistent Threat Hacking: The Art and Science of Hacking Any Organization by Tyler Wrightson, 2014](http://amzn.to/2iqoyEj)
 * [Bug Hunter's Diary by Tobias Klein, 2011](http://amzn.to/2jkYHO2)
 
-#### Hackers Handbook Series
+#### Hackers Handbook Series {#hackers-handbook-series}
 * [The Database Hacker's Handbook, David Litchfield et al., 2005](http://amzn.to/2jlcqEB)
 * [The Shellcoders Handbook by Chris Anley et al., 2007](http://amzn.to/2iudxwQ)
 * [The Mac Hacker's Handbook by Charlie Miller & Dino Dai Zovi, 2009](http://amzn.to/2jSUpxO)
@@ -274,33 +275,33 @@ A collection of awesome penetration testing resources
 * [The Mobile Application Hackers Handbook by Dominic Chell et al., 2015](http://amzn.to/2jMmtz1)
 * [Car Hacker's Handbook by Craig Smith, 2016](http://amzn.to/2jldxnL)
 
-#### Defensive Development
+#### Defensive Development {#defensive-development}
 
 * [Holistic Info-Sec for Web Developers (Fascicle 0)](http://amzn.to/2jmRqwB)
 * [Holistic Info-Sec for Web Developers (Fascicle 1)](https://leanpub.com/holistic-infosec-for-web-developers-fascicle1-vps-network-cloud-webapplications)
 
-#### Network Analysis Books
+#### Network Analysis Books {#network-analysis-books}
 * [Nmap Network Scanning by Gordon Fyodor Lyon, 2009](http://amzn.to/2izkmAN)
 * [Practical Packet Analysis by Chris Sanders, 2011](http://amzn.to/2jn091H)
 * [Wireshark Network Analysis by by Laura Chappell & Gerald Combs, 2012](http://amzn.to/2jn4DFU)
 * [Network Forensics: Tracking Hackers through Cyberspace by Sherri Davidoff & Jonathan Ham, 2012](http://amzn.to/2izaCXe)
 
-#### Reverse Engineering Books
+#### Reverse Engineering Books {#reverse-engineering-books}
 * [Reverse Engineering for Beginners by Dennis Yurichev](http://beginners.re/)
 * [Hacking the Xbox by Andrew Huang, 2003](http://amzn.to/2iudEbO)
 * [The IDA Pro Book by Chris Eagle, 2011](http://amzn.to/2itYfbI)
 * [Practical Reverse Engineering by Bruce Dang et al., 2014](http://amzn.to/2jMnAyD)
 * [Gray Hat Hacking The Ethical Hacker's Handbook by Daniel Regalado et al., 2015](http://amzn.to/2iua6q7)
 
-#### Malware Analysis Books
+#### Malware Analysis Books {#malware-analysis-books}
 * [Practical Malware Analysis by Michael Sikorski & Andrew Honig, 2012](http://amzn.to/2izon8f)
 * [The Art of Memory Forensics by Michael Hale Ligh et al., 2014](http://amzn.to/2iuh1j8)
 * [Malware Analyst's Cookbook and DVD by Michael Hale Ligh et al., 2010](http://amzn.to/2jnag6W)
 
-#### Windows Books
+#### Windows Books {#windows-books}
 * [Windows Internals by Mark Russinovich et al., 2012](http://amzn.to/2jl4zGJ)
 
-#### Social Engineering Books
+#### Social Engineering Books {#social-engineering-books}
 * [The Art of Deception by Kevin D. Mitnick & William L. Simon, 2002](http://amzn.to/2jMhgXQ)
 * [The Art of Intrusion by Kevin D. Mitnick & William L. Simon, 2005](http://amzn.to/2jl287p)
 * [Ghost in the Wires by Kevin D. Mitnick & William L. Simon, 2011](http://amzn.to/2izbuuV)
@@ -309,14 +310,14 @@ A collection of awesome penetration testing resources
 * [Unmasking the Social Engineer: The Human Element of Security by Christopher Hadnagy, 2014](http://amzn.to/2izf4W5)
 * [Social Engineering in IT Security: Tools, Tactics, and Techniques by Sharon Conheady, 2014](http://amzn.to/2izlww9)
 
-#### Lock Picking Books
+#### Lock Picking Books {#lock-picking-books}
 * [Practical Lock Picking by Deviant Ollam, 2012](http://amzn.to/2jmQeJy)
 * [Keys to the Kingdom by Deviant Ollam, 2012](http://amzn.to/2izcvDg)
 * [CIA Lock Picking Field Operative Training Manual](http://amzn.to/2jMrw2c)
 * [Lock Picking: Detail Overkill by Solomon](https://www.dropbox.com/s/y39ix9u9qpqffct/Lockpicking%20Detail%20Overkill.pdf?dl=0)
 * [Eddie the Wire books](https://www.dropbox.com/sh/k3z4dm4vyyojp3o/AAAIXQuwMmNuCch_StLPUYm-a?dl=0)
 
-### Vulnerability Databases
+### Vulnerability Databases {#vulnerability-databases}
 * [NVD](https://nvd.nist.gov/) - US National Vulnerability Database
 * [CERT](https://www.us-cert.gov/) - US Computer Emergency Readiness Team
 * [OSVDB](https://blog.osvdb.org/) - Open Sourced Vulnerability Database
@@ -333,7 +334,7 @@ A collection of awesome penetration testing resources
 * [ZDI](http://www.zerodayinitiative.com/) - Zero Day Initiative
 * [Vulners](https://vulners.com) - Security database of software vulnerabilities
 
-### Security Courses
+### Security Courses {#security-courses}
 * [Offensive Security Training](https://www.offensive-security.com/information-security-training/) - Training from BackTrack/Kali developers
 * [SANS Security Training](http://www.sans.org/) - Computer Security Training & Certification
 * [Open Security Training](http://opensecuritytraining.info/) - Training material for computer security classes
@@ -343,7 +344,7 @@ A collection of awesome penetration testing resources
 * [Computer Security Student](http://computersecuritystudent.com) - Many free tutorials, great for beginners, $10/mo membership unlocks all content
 * [European Union Agency for Network and Information Security](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material) - ENISA Cyber Security Training material
 
-### Information Security Conferences
+### Information Security Conferences {#information-security-conferences}
 * [DEF CON](https://www.defcon.org/) - An annual hacker convention in Las Vegas
 * [Black Hat](http://www.blackhat.com/) - An annual security conference in Las Vegas
 * [BSides](http://www.securitybsides.com/) - A framework for organising and holding security conferences
@@ -376,7 +377,7 @@ A collection of awesome penetration testing resources
 * [BalCCon](https://www.balccon.org) - Balkan Computer Congress, annualy held in Novi Sad, Serbia
 * [FSec](http://fsec.foi.hr) - FSec - Croatian Information Security Gathering in Varaždin, Croatia
 
-### Information Security Magazines
+### Information Security Magazines {#information-security-magazines}
 * [2600: The Hacker Quarterly](https://www.2600.com/Magazine/DigitalEditions) - An American publication about technology and computer "underground"
 * [Phrack Magazine](http://www.phrack.org/) - By far the longest running hacker zine
 
